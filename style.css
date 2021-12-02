@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+}
+.card{
+    width: 270px;
+    height: 60px;
+
+    background-color: #161616;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.emoji, .name{
+    padding: 15px;
+    color: white;
+}
+.name{
+    font-size: 13px;
+    padding: 18px;
+}
+#card-1{
+    margin-top: 10px;
+}
+
+.roadmap h1{
+    color: white;
+    font-size: 120px;
+    padding: 15px;
+}
+.roadmap p{
+    color: white;
+    padding-left: 25px;
+    margin-top: -10px;
+    font-size: 26px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-r{
+    width: 230px;
+    height: 230px;
+    border: 4px solid aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.card-r h1, .card-r p{
+    text-align: center;
+}
+.card-r p{
+    margin-left: -20px;
+}
+
+
+.card-1{
+    width: 54px;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #161616;
+}
+.card-1 h1{
+    text-align: center;
+    padding: 4px
+}
+.nav{
+    display: none;
+}
+
+.small-screen{
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
+.cardssss{
+    display: none;
+}
+.main-screen-chapters{
+    display: flex;
+    flex-direction: row;
+}
+.chaptersss h1{
+    color: white;
+    font-size: 70px;
+    padding: 20px;
+}
+.chaptersss p{
+    padding: 30px;
+    margin-top: -40px;
+    font-size: 20px;
+    color: white;
+
+}
+.card-s-s{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.card-rr-r{
+width: 260px;
+height: 200px;
+border: 5px solid aqua;
+border-radius: 12px;
+margin-top: 40px;
+}
+.card-rr-r a{
+    text-decoration: none;
+}
+.card-rr-r p{
+ padding-top: 60px;
+ width: 100%;
+}
+.card-rr-r{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.profile p{
+    margin-left: -40px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.date p{
+    margin-top: -70px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.dates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:760px) {
+    .small-screen{
+        width: 100%;
+        display: flex;
+    
+    }
+    .main-screen-chapters{
+        display: none;
+    }
+    
+    .nav{
+        width: 80px;
+        height: 100vh;
+        background-color: black;
+        position: fixed;
+    }
+    nav{
+        display: none;
+    }
+    .nav{ 
+        display: block;
+    }
+    .roadmap-2 h1, .chapters h1{
+        font-size: 40px;
+        color: white;
+        padding: 20px;
+        margin-left: 70px;
+    }
+    .roadmap-2 p, .chapters p{
+        padding-left: 20px;
+        font-size: 16px;
+        margin-top: -10px;
+        color: white;
+        line-height: 30px;
+        margin-left: 70px;
+    }
+
+
+.cardsss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardssss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardsss a{
+    text-decoration: none;
+}
+.card-s{
+    width: 180px;
+    height: 180px;
+    border: 5px solid aqua;
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+#card-sss{
+    margin-top: 40px;
+}
+.card-s h1{
+    font-size: 90px;
+    margin-left: 10px;
+}
+.card-s h2{
+    font-size: 20px;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+}
+
+.c-card{
+    width: 240px;
+    height: 150px;
+    border: 5px solid aqua;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.card-rr{
+    width: 240px;
+    height: 170px;
+    border: 4px solid aqua;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.card-rr p{
+    padding-top: 15px;
+    padding-left: 7px;
+    color: white;
+    font-weight: bolder;
+}
+    
+}
